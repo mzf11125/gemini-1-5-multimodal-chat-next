@@ -34,7 +34,6 @@ export const CommonForm: React.FC<CommonFormProps> = ({
   onInputChange,
   onFormSubmit,
   onResetForm,
-  placeholder,
 }) => {
   const formRef = useRef<HTMLFormElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -214,7 +213,7 @@ export const CommonForm: React.FC<CommonFormProps> = ({
             style={{ height: textareaHeight }}
             rows={1}
             className="flex-1 p-2 resize-none min-h-8 rounded max-h-[50vh] border"
-            placeholder={placeholder}
+            placeholder="Chat with Gemini 1.5"
           />
           <Button type="submit" variant="icon" size="icon" disabled={loading}>
             {loading ? (
