@@ -5,8 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Simple gpt-4o Playground",
-  description: "Simple gpt-4o Playground",
+  title: "Safe Plate AI",
+  description:
+    "Ensure your food safety with Safe Plate AI - Your trusted AI assistant for food safety and hygiene.",
 };
 
 export default function RootLayout({
