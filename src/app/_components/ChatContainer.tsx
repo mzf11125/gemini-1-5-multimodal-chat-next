@@ -181,7 +181,7 @@ Example Output Table
           // className="mt-4"
         />
         <Button
-          variant="primary"
+          variant="default"
           onClick={() => setShowCamera(true)}
           className="mt-4"
         >
