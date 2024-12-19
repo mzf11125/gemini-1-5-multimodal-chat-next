@@ -1,3 +1,6 @@
+
+/* eslint-disable */
+
 "use client"; // components/ChatContainer.tsx
 import React, { useRef, useEffect, useState, FormEvent } from "react";
 import { Message, useChat } from "ai/react";

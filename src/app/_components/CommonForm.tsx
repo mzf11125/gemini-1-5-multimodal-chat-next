@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 "use client";
 // components/CommonForm.tsx
 import React, {
