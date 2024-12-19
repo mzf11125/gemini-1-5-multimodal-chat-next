@@ -1,4 +1,3 @@
-
 /* eslint-disable */
 
 "use client"; // components/ChatContainer.tsx
@@ -177,8 +176,8 @@ Example Output Table
           loading={loading}
           onInputChange={handleInputChange}
           onFormSubmit={handleSubmitForm}
-          // placeholder="Enter food ingredients or upload an image of a food label"
-          // className="mt-4"
+          placeholder="Enter food ingredients or upload an image of a food label"
+          className="mt-4"
         />
         <Button
           variant="default"

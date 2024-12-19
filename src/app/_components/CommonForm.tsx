@@ -215,7 +215,7 @@ export const CommonForm: React.FC<CommonFormProps> = ({
             style={{ height: textareaHeight }}
             rows={1}
             className="flex-1 p-2 resize-none min-h-8 rounded max-h-[50vh] border"
-            placeholder="Chat with Gemini 1.5"
+            placeholder="Le'ts make sure your plate is safe to eat"
           />
           <Button type="submit" variant="icon" size="icon" disabled={loading}>
             {loading ? (
